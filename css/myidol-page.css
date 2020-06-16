@@ -1,0 +1,121 @@
+
+div#banner2{
+    width: 790px;
+    height: 250px;
+    text-align: center;
+    
+    background: url(../images/bg2.png) repeat-x center;
+}
+div#nav4{
+    width: 790px;
+    height: 42px;
+    text-align: center;
+    border-bottom: 1px solid #D1E4F8;
+}
+.bt{
+    display: inline-block;
+    width: 200px;
+    height: 35px;
+    padding-top: 5px;
+    background-color: #D1E4F8;
+    text-align: center;
+    
+    border: 1px solid #fff;
+}
+a{
+    color: black;
+}
+.work{
+    width: 760px;
+    margin: 20px 10px 20px 10px;
+    background-color: #D1E4F8;
+    height: 500px;
+    
+}
+div#minipic{
+    float: right;
+    width: 315px;
+    height: 500px;
+    border: 1px solid #fff;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+div#minipic img{
+    margin-bottom: 5px;
+    margin-right: 5px;
+    width: 148px;
+    height: 111px;
+    border: 1px solid #fff;
+}
+
+div#bigpic{
+    width: 440px;
+    height: 330px;
+    padding-top: 7px;
+    border-bottom: 1px solid #fff;
+}
+div#text{
+    text-align: center;
+    width: 440px;
+    height: 169px;
+    padding-top: 20px;
+}
+div#painting{
+    height: 470px;
+}
+div#bigpic-2{
+    width: 757px;
+    height: 280px;
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 3px;
+    
+}
+div#bigpic-2 img{
+    float: left;
+    height: 280px;
+    width: 210px;
+    margin-right: 1px;
+}
+div#minipic-2 img{
+    float: left;
+    margin-left: 5px;
+}
+@keyframes rotateImg {
+    0% {transform : rotate(0deg);}
+    100% {transform : rotate(360deg);}
+  }
+@-webkit-keyframes rotateImg {
+    0%{-webkit-transform : rotate(0deg);}
+  100%{-webkit-transform : rotate(360deg);}
+}
+.logo {
+    animation: animal 4s infinite linear ;
+    -webkit-transform-origin: center center;
+    -ms-transform-origin: center center;
+    transform-origin: center center;
+}
+
+.music{
+   float: left;
+   height: 380px;
+   width: 242px;
+   background-color: #D1E4F8;
+   text-align: center;
+   margin: 20px 5px 20px 5px;
+   border-radius: 3px;
+}
+.cover img, .video{
+    height: 220px;
+    width: 220px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+.cover img{
+    animation:rotateImg 60s linear infinite
+}
+.audio{
+    width: 240px;
+    height: 40px;
+    background-color:  #D1E4F8;
+}

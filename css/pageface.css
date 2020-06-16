@@ -1,0 +1,110 @@
+/*初始化各元素*/
+html, body, div, span, applet,input, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding: 0;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    border-width: 0px;
+}
+body{
+    background-color: skyblue;
+    font-size: 100%;
+    font-family: Arial,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+/*背景：三层div叠加样式*/
+#pageface{
+    margin: 30px auto 30px auto;
+    width: 600px;
+    height: 620px;
+    position:relative;
+}
+.page{
+    width: 580px;
+    position: absolute;
+    box-shadow: 0 0 4px 4px #758083;
+}
+/*另定义封面高度*/
+.standarfacepage{
+    height: 600px;
+}
+#page3{
+    left: 20px;
+    top:0px;
+    z-index:70;
+    background-color: #f6f6f6;
+}
+#page2{
+    left: 10px;
+    top:10px;
+    z-index:80;
+    background-color: #fff;
+}
+#page1{
+    left: 0px;
+    top:20px;
+    z-index:100;
+    background-color:#eef1f8;;
+}
+/*三层div叠加样式结束*/
+/*中间文字内容*/
+#cont{
+    width: 350px;
+    position: absolute;
+    left:150px;
+    top:120px;
+}
+div#cont h1{
+    display: block;
+    margin-top: 20px;
+    font-family:"Microsoft Sans Serif ",Georgia,serif;
+    font-size: 4.7em;
+    color: #4f4f4f;
+    font-weight: bold;
+}
+.greenfont{
+    color: rgb(112, 156, 173);
+}
+div#cont p#p1{
+    color: #4f4f4f;
+    font-size: 0.5em;
+    margin-top: 5px;
+
+}
+div#cont h2{
+    display: block;
+    margin-top: 30px;
+    font:2em Helvetica;
+    color: #4f4f4f;
+    font-weight: bold;
+}
+div#cont p.p2{
+    color:#4f4f4f;
+    font-size: 0.5em;
+}
+div#cont p.p2 span{
+    font-size: 2em;
+    font-weight: 900;
+}
+div#cont div#enter{
+    font-family:"Microsoft Sans Serif ",Georgia,serif;
+    font-size: 2.5em;
+    color: #4f4f4f;
+    font-weight: bold;
+    border: 3px solid #464545;
+    margin-top: 30px;
+    width: 130px;
+}
+div#cont a:hover{
+    text-decoration: underline;
+    color: rgb(112, 156, 173);
+}

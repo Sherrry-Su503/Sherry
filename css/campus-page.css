@@ -1,0 +1,60 @@
+/*第一个事件*/
+.part{
+    width: 770px;
+    margin: 20px 10px 20px 10px;
+    padding:20px auto;
+    
+}
+/*表的宽度为770px,下面设置表格的的右边框和下边框宽度为1px*/
+div.part .part-con table{
+    border-collapse: separate;
+    border-spacing: 0px;
+    border-color: #fff;
+    width: 100%;
+    
+}
+div.part .part-con td{
+    display: inline-block; 
+    border-right: 1px solid #fff; 
+    border-bottom: 1px solid #fff;
+    text-align: center;
+    background-color: #D1E4F8;
+    line-height: 1.5em;
+    font-size: 0.8em;
+}
+
+/*每一行根据图片和视频单独设置高度*/
+.row1{
+    height: 200px;
+}
+/*单独设置每个单元格的宽度，行宽不变为767px*/
+div.part .part-con .con{ 
+    width: 218.5px;
+}
+.video{
+    width: 320px;
+}
+.row2{
+    height: 180px;
+}
+td#con2-2{
+    width: 273px;
+}
+/*第一个事件结束*/
+/*第二个事件*/
+.n2-1, .n2-1 img, td#con2--4, td#con2--6{
+    width: 250px;
+    height: 166.7px;
+}
+td.n2-2, .n2-2 img, td#con2--5{
+    width:220px;
+    height: 166.7px;
+}
+td#con2--4, td#con2--5, td#con2--6{
+    height: 100px;
+}
+/*第二个事件结束*/
+.n3, .n3 img{
+    width: 150px;
+    height: 200px;
+}

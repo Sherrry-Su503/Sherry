@@ -1,0 +1,64 @@
+div#setinfo{
+    width: 600px;
+    height: 800px;
+    margin: 40px auto;
+    text-align: center;
+
+}
+div#setinfo table{
+    width: 600px;
+    height: 700px;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+input, text{
+    font-size: 1em;
+}
+div#setinfo td#title{
+    width: 600px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+div#setinfo td{
+    width: 280px;
+    height: 50px;
+}
+div#setinfo td.key{
+    text-align: right;
+    font-size: 1.3em;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+div#setinfo td.value, div#setinfo td.value2, div#setinfo td.value3，div#setinfo td.value4{
+    text-align: left;
+}
+div#setinfo td.value input{
+    width: 200px;
+    height: 30px;
+}
+div#setinfo td.value3 input{
+    width: 250px;
+    height: 30px;
+}
+
+div#setinfo td.value4 textarea{
+    height: 100px;
+    width: 280px;
+    resize: none;
+    padding:20px 20px;
+    font-size: 1.3px;
+}
+div#setinfo td.key4{
+    text-align: center;
+}
+div#setinfo a{
+    display: inline-block;
+    height: 30px;
+    padding-top: 10px;
+    width: 60px;
+    font-size: 1.3px;
+    color: black;
+    text-align: center;
+    background-color: #D1E4F8;
+}
+
